@@ -1,3 +1,5 @@
+import os
+
 """
 Django settings for PROJEKT project.
 
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'APP',
 ]
 
 MIDDLEWARE = [
