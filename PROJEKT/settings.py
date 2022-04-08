@@ -1,4 +1,5 @@
 import os
+from pickle import TRUE
 
 """
 Django settings for PROJEKT project.
@@ -25,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-0rx2tnol3z4yq+4!-&cum*m+q_yqx(a$zu4*@7ir-5@h+$!%70'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['helloheroku21.herokuapp.com', '127.0.0.1']
 
